@@ -26,7 +26,7 @@ public class CalculatorTests
         Calculator calc = new();
         int a = 5;
         int b = 2;
-        int expectedResult = 3;
+        int expectedResult = 5;
 
         // when
         int result = calc.Subtract(a, b);
