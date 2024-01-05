@@ -97,3 +97,4 @@ c:\Users\Mashe\Desktop\GitHUB Actions\Actions\obj\Debug\net8.0\refint\Actions.dl
 c:\Users\Mashe\Desktop\GitHUB Actions\Actions\obj\Debug\net8.0\Actions.pdb
 c:\Users\Mashe\Desktop\GitHUB Actions\Actions\obj\Debug\net8.0\Actions.genruntimeconfig.cache
 c:\Users\Mashe\Desktop\GitHUB Actions\Actions\obj\Debug\net8.0\ref\Actions.dll
+C:\Users\Mashe\Desktop\GitHUB Actions\Actions\obj\Debug\net8.0\Actions.sourcelink.json
