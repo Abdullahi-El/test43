@@ -15,14 +15,21 @@ public class CalculatorTests
         int result = calc.Add(a, b);
     
 
-        //then
+        // then
         Assert.Equal(expectedResult, result);
     }
-    
 
-
-
-
-
-
+    [Fact]
+    public void TestDivison()
+    {
+        // given
+        Calculator calc = new Calculator();
+        int a = 10;
+        int b = 2;
+        double expectedResult = 5.0;
+        // when
+        double result = calc.Divide(a, b);
+        // then
+        Assert.Equal(expectedResult, result);
+    }
 }

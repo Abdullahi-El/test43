@@ -7,10 +7,16 @@ public class Calculator
         return a + b;
     }
 
-    public int Subtruct(int a, int b)
+    public double Divide(int a, int b)
     {
-        return 0;
+    if (b == 0)
+    {
+        throw new ArgumentException("Kan inte vara 0.", nameof(b));
     }
+    
+    return (double) a / b;
+    }
+
 
     public int Multiply(int a, int b)
     {
