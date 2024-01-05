@@ -6,9 +6,15 @@ public class Calculator
     {
         return a + b;
     }
+    
+    public int Subtract(int a, int b)
+    {
+        return a - b;
+    }
 
     public double Divide(int a, int b)
     {
+
     if (b == 0)
     {
         throw new ArgumentException("Kan inte vara 0.", nameof(b));
@@ -17,14 +23,8 @@ public class Calculator
     return (double) a / b;
     }
 
-
     public int Multiply(int a, int b)
     {
         return a * b;
-    }
-
-    public int Division(int a, int b)
-    {
-        return 0;
     }
 }
